@@ -23,8 +23,31 @@ html, body {
     background-size: cover;
     width: 100%;
     height: 100%;
+  }
+div{
+  border-style: solid;
+  padding: 30px;
+  border-width: 5px;
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 20px 10px;
 }
-
+.col-xs-6{
+  width: 400px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.container{
+  background-color: blue;
+  height: 940px;
+}
+.row{
+  background-color: red;
+  height: 1200px;
+  width: 950px;
+  margin-left: 200px;
+}
 @import url(http://fonts.googleapis.com/css?family=Halant);
 
 html {
