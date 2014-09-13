@@ -34,6 +34,7 @@ html, body {
   height: 250px;
   margin: 10px 15px 15px 15px;
   }
+
 @import url(http://fonts.googleapis.com/css?family=Halant);
 html {
   height:100%;
@@ -213,6 +214,9 @@ h2 {
     display: initial;
   }
 }
+
+
+
 
 
 
