@@ -25,16 +25,11 @@ html, body {
   background-repeat: fixed no-repeat;
   opacity: .5;
   }
-  .photos{
-  width: 800px;
-  margin: 0 auto;
+  #carousel-example-generic{
+    width: 500px;
+    margin-left: 430px;
+    height: 500px;
   }
-  .photos img{
-  width: 200px;
-  height: 250px;
-  margin: 10px 15px 15px 15px;
-  }
-
 @import url(http://fonts.googleapis.com/css?family=Halant);
 html {
   height:100%;
