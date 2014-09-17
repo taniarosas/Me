@@ -30,6 +30,25 @@ html, body {
     margin-left: 430px;
     height: 500px;
   }
+@media screen and (max-width:1024px;){
+  #body1{
+    width: 100%;
+  }
+  #section{
+    width: 100%;
+  }
+}
+@media screen and (max-width:640px;){
+  #section{
+    width: 100%;
+  }
+}
+@media screen and (max-width:320px;){
+  #section{
+    width: 100%;
+  }
+}
+
 @import url(http://fonts.googleapis.com/css?family=Halant);
 html {
   height:100%;
@@ -68,7 +87,7 @@ nav ul li a:hover {
   width: 700px;
   text-align: center;
   font-size: 25px;
-  margin: 10px 0px 10px 300px;
+  margin: 0 auto;
 }
 h2 {
   color: white;
