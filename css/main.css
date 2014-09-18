@@ -12,25 +12,7 @@ html, body {
   font-weight: 100;
   text-align: center;
 }
-#body1{
-  background-color: #FF7A73;
-  opacity: .8;
-}
-#body2{
-  background-image: url("http://31.media.tumblr.com/2012400877325399a43033fa510a53a0/tumblr_mpboer4Llh1snf3o0o1_500.jpg");
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-repeat: fixed no-repeat;
-  opacity: .5;
-  }
-  #carousel-example-generic{
-    width: 500px;
-    margin-left: 430px;
-    height: 500px;
-  }
-@media screen and (max-width:1024px;){
+@media screen and (max-width: 1024px){
   #body1{
     width: 100%;
   }
@@ -38,17 +20,40 @@ html, body {
     width: 100%;
   }
 }
-@media screen and (max-width:640px;){
+@media screen and (max-width: 640px){
   #section{
     width: 100%;
   }
 }
-@media screen and (max-width:320px;){
-  #section{
+@media (max-width: 320px){
+  #body1{ 
+   
+  }
+  body{
     width: 100%;
   }
+  #section{
+    width: 100%;
+      }
 }
-
+#body1{
+  background-color: #FF7A73;
+  opacity: .8;
+}
+#body2{
+  background-image: url("https://unsplash.imgix.net/45/QDSMoAMTYaZoXpcwBjsL__DSC0104-1.jpg?q=75&fm=jpg&auto=format&s=712c9b9c7ff4ea566d61e7f4bbe6cc53");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: fixed no-repeat;
+  opacity: 0.8;
+  }
+  #carousel-example-generic{
+    width: 500px;
+    margin-left: 430px;
+    height: 500px;
+  }
 @import url(http://fonts.googleapis.com/css?family=Halant);
 html {
   height:100%;
@@ -82,12 +87,13 @@ nav ul li a:hover {
   color: black;
 }
 #section{
-  height: 300px;
+  height: inherit;
   color: white;
   width: 700px;
   text-align: center;
-  font-size: 25px;
   margin: 0 auto;
+  font-size: 25px;
+  width: 50%;
 }
 h2 {
   color: white;
