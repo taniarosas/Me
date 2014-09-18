@@ -27,7 +27,7 @@ html, body {
 }
 @media (max-width: 320px){
   #body1{ 
-   
+  
   }
   body{
     width: 100%;
@@ -40,7 +40,7 @@ html, body {
   background-image: url("http://cdn.superbwallpapers.com/wallpapers/abstract/blurry-pattern-15690-1920x1200.jpg");
   opacity: .8;
 }
-#body2{");
+#body2{
   background-image: url("https://unsplash.imgix.net/1/work-stations-plus-espresso.jpg?q=75&fm=jpg&auto=format&s=483a862ea004b5dd7d8774153ec437b9");
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -48,12 +48,11 @@ html, body {
   background-size: cover;
   background-repeat: fixed no-repeat;
   opacity: 0.8;
-
   }
   #carousel-example-generic{
-    width: 500px;
-    margin-left: 430px;
-    height: 500px;
+   width: 40%;
+   height: inherit;
+   margin: 0 auto;
   }
 @import url(http://fonts.googleapis.com/css?family=Halant);
 html {
@@ -90,7 +89,6 @@ nav ul li a:hover {
 #section{
   height: inherit;
   color: white;
-  width: 700px;
   text-align: center;
   margin: 0 auto;
   font-size: 25px;
@@ -236,4 +234,6 @@ h2 {
   }
 }
 
-
+.btn, .btn:hover {
+  background-color: #143054;
+}
