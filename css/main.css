@@ -40,14 +40,15 @@ html, body {
   background-color: #FF7A73;
   opacity: .8;
 }
-#body2{
-  background-image: url("https://unsplash.imgix.net/45/QDSMoAMTYaZoXpcwBjsL__DSC0104-1.jpg?q=75&fm=jpg&auto=format&s=712c9b9c7ff4ea566d61e7f4bbe6cc53");
+#body2{");
+  background-image: url("https://unsplash.imgix.net/1/work-stations-plus-espresso.jpg?q=75&fm=jpg&auto=format&s=483a862ea004b5dd7d8774153ec437b9");
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-repeat: fixed no-repeat;
   opacity: 0.8;
+
   }
   #carousel-example-generic{
     width: 500px;
@@ -234,13 +235,5 @@ h2 {
     display: initial;
   }
 }
-
-
-
-
-
-
-
-
 
 
