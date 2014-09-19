@@ -26,8 +26,11 @@ html, body {
   }
 }
 @media (max-width: 320px){
-  #body1{ 
-  
+  #body1{
+    background-image: 100%;
+  }
+  #body2{ 
+    background-image: 100%
   }
   body{
     width: 100%;
@@ -47,6 +50,7 @@ html, body {
   -moz-background-size: cover;
   background-size: cover;
   background-repeat: fixed no-repeat;
+  background-position: center center;
   opacity: 0.8;
   }
   #carousel-example-generic{
