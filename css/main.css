@@ -37,7 +37,7 @@ html, body {
   }
   #section{
     width: 100%;
-      }
+  }
 }
 #body1{
   background-image: url("http://cdn.superbwallpapers.com/wallpapers/abstract/blurry-pattern-15690-1920x1200.jpg");
@@ -53,12 +53,12 @@ html, body {
   background-position: center center fixed;
   opacity: 0.8;
   }
-  #carousel-example-generic{
-   width: 40%;
-   height: inherit;
-   margin: 0 auto;
-   margin-top: 30px;
-   margin-bottom: 30px;
+#carousel-example-generic{
+  width: 40%;
+  height: inherit;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
   }
 @import url(http://fonts.googleapis.com/css?family=Halant);
 html {
